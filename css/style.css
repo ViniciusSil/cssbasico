@@ -4,13 +4,13 @@
     box-sizing: border-box;
 
 }
-
-.container-menu{
+/* flexbox*/
+.menu{
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -27,14 +27,11 @@ header{
     padding: 10px;
 }
 
-.logo{
+.logo, .logo-tira{
+    margin-top: 10px;
     width: 25%;
-
-}
-
-.logo-tira{
-    width: 10%;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo img{
